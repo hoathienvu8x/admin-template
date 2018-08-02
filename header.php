@@ -14,6 +14,13 @@
 	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
 	<![endif]-->
+	<script>
+	const ajaxurl = '<?php echo SITE_URL;?>ajax.php';
+	<?php if (is_user_login()) { ?>
+		const uploadurl = '<?php echo SITE_URL; ?>upload.php';
+		const BYTES_PER_CHUNK = <?php echo BYTES_PER_CHUNK; ?>;
+	<?php } ?>
+	</script>
 </head>
 <body<?php body_class(); ?>>
 <?php 
