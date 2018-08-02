@@ -5,6 +5,17 @@ function is_user_loggin() {
 function get_user_data($key, $default = '') {
 	return "Key : $key";
 }
+function body_class() {
+	if (!is_user_loggin()) {
+		echo ' class="login"';
+	} else {
+		$action = isset($_GET['action']) ? trim($_GET['action']) : 'home';
+		if (empty($action)) {
+			$action = 'home';
+		}
+		echo ' class="'.$action.'-page"';
+	}
+}
 class Url {
 	public static function query($args = array()) {
 		$query = array();
