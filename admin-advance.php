@@ -28,7 +28,7 @@
 		<tr>
 			<td class="row-label">Photo</td>
 			<td>
-				<p><img src="images/no-image.png" /></p>
+				<p><img src="images/no-image.svg" /></p>
 				<p><input type="file" name="photo" accept="image/x-png,image/gif,image/jpeg" /></p>
 			</td>
 		</tr>
