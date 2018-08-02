@@ -15,4 +15,70 @@ body {
 	font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 	font-size:14px;
 }
+#login-form {
 
+}
+#login-form input[type="text"], #login-form input[type="password"], #forgot-form input[type="text"] {
+
+}
+#login-form input[type="submit"], #forgot-form input[type="submit"] {
+	
+}
+input[type="checkbox"] {
+
+}
+input[type="checkbox"]:checked:before {
+
+}
+.message {
+
+}
+.error {
+
+}
+.warning {
+
+}
+.success {
+	
+}
+#aside {}
+#aside img {}
+#site-logo {}
+#aside-inner {}
+#aside-inner ul {}
+#aside-inner li {}
+#aside-inner li a {}
+#aside-inner ul.sub-menu {}
+#aside-inner ul.sub-menu li {}
+#aside-inner ul.submenu li a {}
+#container {}
+#header {}
+#header-inner {}
+#content-wrap {}
+#content {}
+#footer {}
+#footer-inner {}
+.page-navi {}
+span.total {}
+.page-navi a,.page-navi span {}
+.page-navi span.current {}
+.page-navi a.next-page {}
+.page-navi a.last-page {}
+.data-table {}
+table.list-table {}
+table.list-table th, table.list-table td {}
+table.list-table th {}
+th.col-checkbox, td.col-checkbox {}
+th.col-tools, td.col-tools {}
+a.tool {}
+a.edit {}
+a.change {}
+a.delete {}
+.form-inner {}
+.form-elements {}
+table.horizontal-display {}
+td.row-label {}
+.form-button {}
+input[type="text"], input[type="password"], input[type="email"], input[type="number"], textarea {}
+input[type="checkbox"] {}
