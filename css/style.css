@@ -6,6 +6,7 @@
 }
 a {
 	text-decoration:none;
+	color:#4183c4;
 }
 ul, li, ol {
 	list-style:none;
@@ -169,7 +170,6 @@ input[type="checkbox"]:checked:before {
 #aside-inner > ul {
 	padding:24px 0;
 }
-#aside-inner li {}
 #aside-inner li a {
 	display:block;
 	padding:5px 0 5px 24px;
@@ -181,7 +181,6 @@ input[type="checkbox"]:checked:before {
 #aside-inner ul.sub-menu {
 	margin-left:24px;
 }
-#aside-inner ul.sub-menu li {}
 #aside-inner ul.sub-menu li a {
 	font-weight:normal!important;
 }
@@ -261,10 +260,45 @@ th.col-checkbox, td.col-checkbox {
 th.col-tools, td.col-tools {
 	text-align:right!important;
 }
-a.tool {}
-a.edit {}
-a.change {}
-a.delete {}
+a.tool {
+	font-size:11px;
+	background-color:#eee;
+	display:inline-block;
+	padding:2px 3px;
+	border-radius:2px;
+}
+a.tool:before {
+	display:inline-block;
+	margin-right:3px;
+	width:16px;
+	height:16px;
+	content:'';
+	font-size:16px;
+	vertical-align:middle
+	line-height:16px;
+}
+a.edit {
+	background-color:green;
+	color:#fff;
+}
+a.edit:before {
+	content:'\270E';
+}
+a.change {
+	background-color:orange;
+	color:#000;
+}
+a.change:before {
+	content:'\029C9
+';
+}
+a.delete {
+	background-color:red;
+	color:yellow;
+}
+a.delete:before {
+	content:'\2718';
+}
 .form-inner, .data-table {
 	background-color:#fff;
 	padding:15px;
