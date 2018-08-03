@@ -234,13 +234,21 @@ span.total {
 	display:inline-block;
 	padding:7px 9px;
 }
+.page-navi a {
+	text-decoration:underline;
+}
 .page-navi a.next-page {
 	background-color:#357ae8;
 	color:#fff;
 	border-radius:2px;
+	text-decoration:none;
 }
 table.list-table {
 	width:100%;
+}
+th {
+	font-weight:normal;
+	font-size:12px;
 }
 table.list-table th, table.list-table td {
 	vertical-align:middle!important;
@@ -323,5 +331,22 @@ table.horizontal-display img {
 	background-color:transparent;
         box-shadow:none;
 }
+.form-button input[type="submit"] {
+    	padding: 8px 25px;
+    	font-size: 15px;
+    	font-weight: bold;
+	border: none;
+	background-color: #fff;
+	border-radius: 3px;
+	box-shadow: 0 1px 1px 1px rgba(0,0,0,.2);
+}
 input[type="text"], input[type="password"], input[type="email"], input[type="number"], textarea {}
 input[type="checkbox"] {}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+textarea {
+	resize:none;
+}
