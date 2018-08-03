@@ -18,5 +18,5 @@ if (file_exists($action . '.php')) {
 }
 ?>
 <?php require_once 'header.php'; ?>
-
+<div class="dashboard"></div>
 <?php require_once 'footer.php'; ?>
