@@ -16,13 +16,61 @@ body {
 	font-size:14px;
 }
 #login-form {
-
+	margin:50px auto 10px;
+	background-color:#fff;
+	box-shadow:0 1px 1px 1px rgba(0,0,0,.2);
+	border-radius:5px;
+	min-width:280px;
+	max-width:300px;
+	position:relative;
+	padding-top:15px;
+}
+#login-logo {
+	position:absolute;
+	top:-20px;
+	right:-20px;
+	width:40px;
+	height:40px;
+	padding:5px;
+	background-color:#fff;
+	border-radius:50%;
+	box-shadow:0 1px 1px 1px rgba(0,0,0,.2);
+}
+#login-form p {
+	padding:0 15px 10px;
 }
 #login-form input[type="text"], #login-form input[type="password"], #forgot-form input[type="text"] {
-
+	padding:8px;
+	width:92%;
+	border:1px solid transparent;
+	border-bottom-color:#ccc;
+}
+#login-form input.code {
+	width:160px;
+	margin-right:15px;
+}
+#login-form p img {
+	vertical-align:middle;
+	position:relative;
+	top:3px;
+}
+.login-button {
+	padding:0 15px 15px;
+	text-align:right;
 }
 #login-form input[type="submit"], #forgot-form input[type="submit"] {
-	
+	background-color: #03A79C;
+	border:1px solid #03A79C;
+	color: #fff;
+	padding:5px 24px;
+	font-weight:bold;
+	font-size:15px;
+}
+.login-button a {
+	float:left;
+	color:#03A79C;
+	position:relative;
+	top:4px;
 }
 input[type="checkbox"] {
 

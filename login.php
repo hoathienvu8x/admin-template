@@ -6,8 +6,8 @@
 		<p><input type="text" name="username" value="" placeholder="Username" /></p>
 		<p><input type="password" name="password" value="" placeholder="Password" /></p>
 		<p>
+			<input type="text" name="code" value="" placeholder="Code" class="code" />
 			<img src="capcha.php?mode=t" />
-			<input type="text" name="code" value="" placeholder="Code" />
 		</p>
 		<p><label for="remember_me"><input type="checkbox" name="remember" value="y" id="remember_me" /> Remember me ?</label></p>
 		<div class="login-button">
