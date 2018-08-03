@@ -6,6 +6,9 @@ function is_user_loggin() {
 function get_user_data($key, $default = '') {
 	return "Key : $key";
 }
+function is_supper() {
+	return true;
+}
 function body_class() {
 	if (!is_user_loggin()) {
 		echo ' class="login"';

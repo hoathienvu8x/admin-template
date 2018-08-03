@@ -5,12 +5,14 @@
 	<div class="message success"><p>Option saved</p></div>
 	<div class="form-inner form-elements">
 		<table class="horizontal-display">
+			<?php if (is_supper()) : ?>
 			<tr>
 				<td class="row-label">Option name</td>
 				<td>
 					<p><input type="text" name="option_name" value="" placeholder="Option name" /></p>
 				</td>
 			</tr>
+			<?php endif; ?>
 			<tr>
 				<td class="row-label">Description</td>
 				<td>
