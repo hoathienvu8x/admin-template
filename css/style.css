@@ -65,12 +65,25 @@ body {
 	padding:5px 24px;
 	font-weight:bold;
 	font-size:15px;
+	border-radius:3px;
 }
 .login-button a {
 	float:left;
 	color:#03A79C;
 	position:relative;
 	top:4px;
+}
+body.login .message {
+	min-width:280px;
+	max-width:300px;
+	margin:0 auto;
+}
+body.login #footer {
+	text-align:center;
+	font-size:12px;
+}
+body.login #footer-inner {
+	padding:10px 0;
 }
 input[type="checkbox"] {
 
@@ -79,16 +92,21 @@ input[type="checkbox"]:checked:before {
 
 }
 .message {
-
+	border-radius:5px;
+	background-color:#fff;
+	box-shadow:0 1px 1px 1px rgba(0,0,0,.2);
+}
+.message p {
+	padding:10px;
 }
 .error {
-
+	color:red;
 }
 .warning {
-
+	color:brown;
 }
 .success {
-	
+	color:green;
 }
 #aside {}
 #aside img {}
@@ -106,7 +124,9 @@ input[type="checkbox"]:checked:before {
 #content-wrap {}
 #content {}
 #footer {}
-#footer-inner {}
+#footer-inner {
+	padding:10px 24px;
+}
 .page-navi {}
 span.total {}
 .page-navi a,.page-navi span {}
