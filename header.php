@@ -6,8 +6,8 @@
 	<title>Administrator Control Panel</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0" />
-	<link rel="stylesheet" type="text/css" href="css/style.css" />
-	<link rel="stylesheet" type="text/css" href="css/responsive.css" />
+	<link rel="stylesheet" type="text/css" href="<?php echo SITE_URL;?>css/style.css" />
+	<link rel="stylesheet" type="text/css" href="<?php echo SITE_URL;?>css/responsive.css" />
 	<link rel="shortcut icon" href="<?php echo SITE_URL; ?>favicon.ico" />
 	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<!--[if lt IE 9]>
