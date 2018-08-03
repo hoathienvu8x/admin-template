@@ -1,6 +1,6 @@
 <?php if (!defined('INAPP')) exit; ?>
 <div id="aside">
-	<div id="site-logo"><img src="images/logo.svg" /></div>
+	<div id="aside-top"><div id="site-logo"><img src="images/logo.svg" /></div></div>
 	<div id="aside-inner">
 		<ul>
 			<li id="info">

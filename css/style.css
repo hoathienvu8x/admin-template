@@ -137,16 +137,49 @@ input[type="checkbox"]:checked:before {
 .success {
 	color:green;
 }
-#aside {}
+#aside {
+	background-color:#fff;
+	width:288px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+	height:100%;
+	position:fixed;
+	z-index:10;
+}
+#aside-top {
+	width:100%;
+	height:60px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+	border-bottom:1px solid rgba(0,0,0,.12);
+}
+
 #aside img {}
-#site-logo {}
+#site-logo {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
 #aside-inner {}
-#aside-inner ul {}
+#aside-inner > ul {
+	padding:24px 0;
+}
 #aside-inner li {}
-#aside-inner li a {}
-#aside-inner ul.sub-menu {}
+#aside-inner li a {
+	display:block;
+	padding:5px 0 5px 24px;
+	font-weight:bold;
+	color:#666;
+	border-bottom:1px solid #ccc;
+	font-size:15px;
+}
+#aside-inner ul.sub-menu {
+	margin-left:24px;
+}
 #aside-inner ul.sub-menu li {}
-#aside-inner ul.submenu li a {}
+#aside-inner ul.sub-menu li a {
+	font-weight:normal!important;
+}
 #container {}
 #header {}
 #header-inner {}
