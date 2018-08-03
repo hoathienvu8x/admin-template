@@ -1,3 +1,4 @@
+<?php if (!defined('INAPP')) exit; ?>
 <?php $args = array(); ?>
 <?php require_once 'header.php'; ?>
 <form action="<?php echo Url::option($args); ?>" method="post"  enctype="multipart/form-data">

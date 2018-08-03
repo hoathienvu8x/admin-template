@@ -1,4 +1,5 @@
 <?php
+if (!defined('INAPP')) exit;
 function is_user_loggin() {
 	return false;
 }

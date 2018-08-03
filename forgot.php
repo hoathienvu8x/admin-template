@@ -1,3 +1,4 @@
+<?php if (!defined('INAPP')) exit; ?>
 <?php require_once 'header.php'; ?>
 <form action="<?php echo Url::forgot(); ?>" method="post">
 	<div id="forgot-form">

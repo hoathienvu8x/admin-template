@@ -1,4 +1,4 @@
-<?php require_once 'init.php'; ?>
+<?php if (!defined('INAPP')) exit; ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -16,7 +16,7 @@
 	<![endif]-->
 	<script>
 	const ajaxurl = '<?php echo SITE_URL;?>ajax.php';
-	<?php if (is_user_login()) { ?>
+	<?php if (is_user_loggin()) { ?>
 		const uploadurl = '<?php echo SITE_URL; ?>upload.php';
 		const BYTES_PER_CHUNK = <?php echo BYTES_PER_CHUNK; ?>;
 	<?php } ?>

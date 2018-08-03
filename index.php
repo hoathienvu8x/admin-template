@@ -1,4 +1,6 @@
 <?php
+define('INAPP', true);
+require_once 'init.php';
 if (!is_user_loggin()) {
 	require_once 'login.php';
 	exit;

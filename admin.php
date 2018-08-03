@@ -1,3 +1,4 @@
+<?php if (!defined('INAPP')) exit; ?>
 <?php
 $args = array();
 $page = 2;
