@@ -73,7 +73,7 @@ function make_alias(str, c) {
 		}		
 
 		var file = this.files[0];
-		if (if (file.size > 0 && allowFiles.indexOf(file.type) != -1) {
+		if (file.size > 0 && allowFiles.indexOf(file.type) != -1) {
 			var _URL = window.URL || window.webkitURL;
 			var blobImage = _URL.createObjectURL(file);
 			var blobName = file.name;
