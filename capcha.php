@@ -20,8 +20,8 @@ for($i = 0; $i < 5; $i++){
 }
 
 for($j = 0; $j < 60; $j++){
-	$x = mt_rand(0,70);
-	$y = mt_rand(0,22);
+	$x = mt_rand(1,69);
+	$y = mt_rand(1,21);
 	imagesetpixel($img,$x,$y,$pixColor);
 }
 
