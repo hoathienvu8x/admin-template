@@ -6,7 +6,6 @@ $pages = 3;
 $users = array(
 	array('id' => 2, 'nickname' => 'Mr Nhat', 'username' => 'mtr.nhat','email' => 'mtr.nhat@gmail.com', 'role' => 'admin','state' => 'check')
 );
-// Chang file
 ?>
 <?php require_once 'header.php'; ?>
 <div class="message"><p>Found 10 administrators</p></div>
