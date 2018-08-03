@@ -54,6 +54,12 @@ body {
 	position:relative;
 	top:3px;
 }
+#login-form p label {
+	display:block;
+	margin-top:10px;
+	font-size:13px;
+	color:#666;
+}
 .login-button {
 	padding:0 15px 15px;
 	text-align:right;
@@ -81,15 +87,38 @@ body.login .message {
 body.login #footer {
 	text-align:center;
 	font-size:12px;
+	color:#c0c0c0;
+	margin-top:10px;
 }
 body.login #footer-inner {
 	padding:10px 0;
 }
 input[type="checkbox"] {
-
+	background: #fbfbfb;
+	border: 1px solid #b4b9be;
+	color: #555;
+	clear: none;
+	cursor: pointer;
+	display: inline-block;
+	line-height: 0;
+	height: 16px;
+	margin: -4px 4px 0 0;
+	outline: 0;
+	padding: 0!important;
+	text-align: center;
+	vertical-align: middle;
+	width: 16px;
+	min-width: 16px;
+	-webkit-appearance: none;
+	box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+	transition: .05s border-color ease-in-out;
 }
 input[type="checkbox"]:checked:before {
-
+	margin: 7px 0 0 0px;
+	color: #1e8cbe;
+	content:'\2714';
+	font-size:18px;
+	display:block;
 }
 .message {
 	border-radius:5px;
