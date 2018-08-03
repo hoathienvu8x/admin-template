@@ -34,8 +34,10 @@ $options = array(
 				<td><?php echo $row['option_value']; ?></td>
 				<td class="col-tools">
 					<a href="<?php echo Url::option(array('edit' => $row['option_name'])); ?>" class="tool edit">Edit</a>
-					<a href="<?php echo Url::option(array('change' => $row['option_name'])); ?>" class="tool change">Change</a>
+					<a href="<?php echo Url::option(array('change' => $row['option_name'] == 'y' ? 'n' : 'y')); ?>" class="tool change">Change</a>
+					<?php if (Option::is_system($row['option_name']) == false) : ?>
 					<a href="<?php echo Url::option(array('del' => $row['option_name'])); ?>" class="tool delete">Delete</a>
+					<?php endif; ?>
 				</td>
 			</tr>
 			<?php endforeach; ?>

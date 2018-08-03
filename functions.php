@@ -17,6 +17,14 @@ function body_class() {
 		echo ' class="'.$action.'-page"';
 	}
 }
+class Option {
+	public static function get($option, $default = false) {
+		return $option;
+	}
+	public statuc function is_system($option) {
+		return false;
+	}
+}
 class Url {
 	public static function query($args = array()) {
 		$query = array();
