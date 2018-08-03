@@ -266,6 +266,7 @@ a.tool {
 	display:inline-block;
 	padding:2px 3px;
 	border-radius:2px;
+	margin:0 0 0 2px;
 }
 a.tool:before {
 	display:inline-block;
@@ -274,7 +275,7 @@ a.tool:before {
 	height:16px;
 	content:'';
 	font-size:16px;
-	vertical-align:middle
+	vertical-align:middle;
 	line-height:16px;
 }
 a.edit {
