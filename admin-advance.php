@@ -9,7 +9,7 @@
 			<td>
 				<p><input type="text" name="nickname" value="" placeholer="Nickname" /></p>
 				<p><input type="email" name="email" value="" placeholder="Email" /></p>
-				<p><input type="number" name="telephone" value="" placeholder="Telephone" /</p>
+				<p><input type="number" name="telephone" value="" placeholder="Telephone" /></p>
 			</td>
 		</tr>
 		<tr>
